@@ -1,0 +1,39 @@
+.ipynb_checkpoints/
+
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE / editor
+.vscode/
+.idea/
+
+# Local environment files (do not commit secrets)
+.env
+medhalt_api/.env
+
+# Generated outputs
+outputs/
+medhalt/predictions/
+
+# Do not upload local paper materials and root models
+/models/
+/参考论文/
+
+# Logs / runtime files
+*.log
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
